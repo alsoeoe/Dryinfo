@@ -3,7 +3,10 @@
 [rewrite_local]
 
 
-^https?:\/\/api\.revenuecat\.com\/v\d\/(receipts|subscribers).* url script-response-body https://raw.githubusercontent.com/alsoeoe/Dryinfo/main/eoe/ScannerPro.js
+
+^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-response-body https://raw.githubusercontent.com/alsoeoe/Dryinfo/main/eoe/ScannerPro.js
+
+^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-response-body https://raw.githubusercontent.com/alsoeoe/Dryinfo/main/eoe/ScannerPro.js
 
 [mitm]
 
