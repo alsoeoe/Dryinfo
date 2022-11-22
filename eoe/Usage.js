@@ -1,7 +1,5 @@
 /***********************
 
-/***********************
-
 [rewrite_local]
 
 ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/alsoeoe/Dryinfo/main/eoe/MDSZ.js
