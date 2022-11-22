@@ -2,9 +2,9 @@
 
 [rewrite_local]
 
-^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/alsoeoe/Dryinfo/main/eoe/MDSZ.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/alsoeoe/Dryinfo/main/eoe/ScannerPro.js
 
-^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/alsoeoe/Dryinfo/main/eoe/MDSZ.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/alsoeoe/Dryinfo/main/eoe/ScannerPro.js
 
 [mitm]
 
