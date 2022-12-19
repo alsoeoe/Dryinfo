@@ -1,0 +1,9 @@
+# NAME: Figma
+# AUTHOR: Also
+# REPO:
+# UPDATED: 2022-12-19
+
+payload:
+  - DOMAIN-SUFFIX,figma.com
+  - PROCESS-NAME,figma
+  - PROCESS-NAME,figma helper
